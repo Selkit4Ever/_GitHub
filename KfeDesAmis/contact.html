@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/cafe.png" type="image/x-icon" />
+    <title>Le Kfé des amis</title>
+    <meta name="description" content="Ceci est une page de présentation">
+    <meta name="keywords" content="Kfé, html, css, etc ">
+    <meta name="author" content="Serge Brackman">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <p>
+            <img src="Images/Logos_RS/icone-communication-ouverte-enveloppe_24877-83666.avif" height="100" alt="Ecrivez-vous">
+        </p>
+
+        <menu>
+
+            <a href="Index.html">accueil</a>
+            <a href="menu.html">menu</a>
+            <a href="contact.html">contact</a>
+            <a href="horaires.html">horaire</a>
+        </menu>
+
+    </header>
+
+
+
+    <main>
+        <form action="Merci.html" method="post">
+            <table>
+                <tr>
+                    <td> <label for="fname">Nom*:</label></td>
+                    <td><input type="text" id="fname" name="fname" placeholder="Tapez votre nom" required><br><br></td>
+                </tr>
+                <div class="form-item">
+                <tr>
+                    <div/tr class="form-item">
+                    <td> <label for="day">date*:</label></td>
+                    <td> <input type="date" id="day" name="day" value="today" required><br><br></td>
+                    </div>
+                </tr>
+            </div>
+                <tr>
+                    <td> <label for="lname">E-Mail*:</label></td>
+                    <td> <input type="email" id="mail" name="mail" required><br><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="nbrs">Nbrs de personnes*:</label> </td>
+                    <td> <input type="number" id="nbrs" name="nbrs" required><br><br></td>
+                </tr>
+                <tr>
+
+
+                    <td><label for="Check">Consentement CGU/RGPD:</label></td>
+                    <td> <input type="checkbox" id="Check" name="RGPD" required><br><br></td>
+                </tr>
+
+                <td colspan="2" style="align-content: center"> <button type="reset"  id="go">Effacer </button> </td>
+                <td style="align-content: center"> <button type="submit"  id="go">Envoyer </button> </td>
+            </table>
+        </form>
+    </main>
+
+
+
+    <p>
+    <footer>
+        <p>
+            <a href="https://www.facebook.com" target="_blank"> <img src="Images/Logos_RS/FB.png" height="20" alt="Lien FB" />
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>
